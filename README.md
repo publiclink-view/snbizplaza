@@ -1,2 +1,2 @@
-# kigam
-웹진 지질자원사람
+# snbizplaza
+성남비즈플라자
