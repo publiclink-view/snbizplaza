@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root {
-    --nav-gap: 6rem;
+    --nav-gap: 7rem;
     --header-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     --hover-color: #0078d7;
     --header-bg: rgba(0, 0, 0, 0.8);
@@ -104,7 +104,7 @@
 
 .main-menu li button {
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 1.15rem;
     font-weight: 300;
     line-height: 1.2;
     background: none;
@@ -167,7 +167,7 @@ ul.sub-menu {
 .sub-menu li a {
     display: block;
     padding: 0.15rem 0;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 400;
     transition: color .2s ease, transform .2s ease;
 }
@@ -188,7 +188,7 @@ ul.sub-menu {
     display: block;
     border: 1px solid #fff;
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 0.1rem 0.7rem;
     border-radius: 0.2rem;
     cursor: pointer;
