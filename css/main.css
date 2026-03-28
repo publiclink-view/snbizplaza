@@ -91,7 +91,7 @@
 h2.section-title {
     font-family: Presentation;
     font-size: clamp(1rem, 2vw, 2rem);
-    font-weight: 400;
+    font-weight: 800;
     margin-bottom: 1.5rem;
 }
 
@@ -110,11 +110,11 @@ h2.section-title b {
     color: inherit;
 }
 
-.necessary-kigam {
+.main-1 {
     position: relative;
 }
 
-.necessary-kigam .section-content {
+.main-1 .section-content {
     grid-template-columns: 2fr 1fr;
     color: #fff;
     position: relative;
@@ -146,7 +146,7 @@ h2.section-title b {
 
 .item-category {
     display: block;
-    background: #000;
+    background: #171D5C;
     width: fit-content;
     font-size: 0.8rem;
     letter-spacing: -0.01rem;
@@ -156,77 +156,77 @@ h2.section-title b {
     color: #fff;
 }
 
-.necessary-kigam .content-item {
+.main-1 .content-item {
     padding: 1.5rem;
     border-radius: 1rem;
     overflow: hidden;
 }
 
-.necessary-1 {
-    background: #2B4C99;
+.main-1-1 {
+    background: #4AA38B;
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     gap: 1rem;
 }
 
-.necessary-2 {
-    background: #4BBD5A;
+.main-1-2 {
+    background: #70BDFA;
     display: flex;
     flex-direction: column-reverse;
     gap: 1rem;
     height: 100%;
 }
 
-.necessary-kigam .item-text {
+.main-1 .item-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.necessary-kigam .view-more {
+.main-1 .view-more {
     align-self: flex-end;
 }
 
-.necessary-1 h3 {
+.main-1-1 h3 {
     font-size: clamp(1.5rem, 2vw, 2rem);
     font-weight: 700;
     line-height: 1.2;
 }
 
-.necessary-1 p {
+.main-1-1 p {
     font-size: 1.2rem;
     margin-top: 1rem;
 }
 
-.necessary-2 .item-text {
+.main-1-2 .item-text {
     flex-grow: 1;
 }
 
-.necessary-2 h3 {
+.main-1-2 h3 {
     font-size: clamp(1.2rem, 1.5vw, 1.5rem);
     font-weight: 700;
     line-height: 1.2;
 }
 
-.essential-kigam {
-    background: #eaf3d9;
+.main-2 {
+    background: #E9F4FA;
 }
 
-.essential-kigam .section-content {
+.main-2 .section-content {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.essential-1 {
+.main-2-1 {
     position: relative;
 }
 
-.essential-1 figure {
+.main-2-1 figure {
     background: #000;
     z-index: 1;
     position: relative;
 }
 
-.essential-1 figure img {
+.main-2-1 figure img {
     width: 100%;
     height: auto;
     display: block;
@@ -234,11 +234,11 @@ h2.section-title b {
     transition: opacity .3s ease;
 }
 
-.essential-1:hover figure img {
+.main-2-1:hover figure img {
     opacity: 0.5;
 }
 
-.essential-1 .item-text {
+.main-2-1 .item-text {
     position: absolute;
     top: 50%;
     left: 5%;
@@ -249,25 +249,25 @@ h2.section-title b {
     text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-.essential-1 .item-category {
+.main-2-1 .item-category {
     font-weight: 700;
-    background-color: #00b47f;
+    background-color: #171D5C;
 }
 
-.essential-1 h3 {
+.main-2-1 h3 {
     font-size: clamp(1.5rem, 2vw, 2rem);
     font-weight: 700;
     line-height: 1.2;
     margin: 1rem 0;
 }
 
-.essential-right {
+.main-2-right {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.essential-2 {
+.main-2-2 {
     display: grid;
     grid-template-columns: 1fr 1.05fr;
     padding: 1rem;
@@ -277,69 +277,69 @@ h2.section-title b {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.essential-2 .item-text {
+.main-2-2 .item-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.essential-2 .item-category {
+.main-2-2 .item-category {
     font-size: 0.7rem;
     font-weight: 700;
     align-self: flex-start;
-    background-color: #00b47f;
+    background-color: #171D5C;
 }
 
-.essential-2 h3 {
+.main-2-2 h3 {
     font-size: clamp(1.1rem, 1.2vw, 1.5rem);
     font-weight: 500;
     line-height: 1.2;
     margin: 1rem 0
 }
 
-.essential-2 .view-more {
+.main-2-2 .view-more {
     color: #9E9E9E;
     font-size: 0.7rem;
 }
 
-.outstanding-kigam {
+.main-3 {
     position: relative;
 }
 
-.outstanding-kigam::after {
+.main-3::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 55%;
     bottom: 0;
     left: 0;
-    background: #ffefe6;
+    background: #E9F4FA;
     z-index: 0;
 }
 
-.outstanding-kigam .section-content {
+.main-3 .section-content {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     position: relative;
     z-index: 2;
 }
 
-.outstanding-kigam .item-category {
-    background-color: #ff5c00;
+.main-3 .item-category {
+    background-color: #171D5C;
 }
 
-.outstanding-1 figure {
+.main-3-1 figure {
     margin-bottom: 1.5rem;
 }
 
-.outstanding-1 h3 {
+.main-3-1 h3 {
     font-size: clamp(1.2rem, 1.3vw, 1.5rem);
     letter-spacing: -0.02rem;
     font-weight: 500;
     margin: 0.5rem 0;
 }
 
-.outstanding-1 .view-more {
+.main-3-1 .view-more {
     color: #9E9E9E
 }
 
@@ -352,7 +352,7 @@ h2.section-title b {
     overflow: hidden;
 }
 
-.necessary-kigam {
+.main-1 {
     /* background-color: #eaf3d9; */
 }
 
