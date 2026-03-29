@@ -72,24 +72,31 @@
 }
 
 .hero-text h1 {
-	font-size: clamp(1.8rem, 3.5vw, 3rem);
+	font-size: 2.6rem;
 	font-weight: 700;
+	letter-spacing: -0.05rem;
 	line-height: 1.25;
 	margin-bottom: 0.8rem;
 	word-break: keep-all;
 }
 
 .hero-text .hero-sub {
-	font-size: clamp(0.95rem, 1.5vw, 1.15rem);
-	font-weight: 300;
-	line-height: 1.6;
-	opacity: 0.92;
+	font-size: 1.3rem;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: -0.05rem;
 	word-break: keep-all;
+}
+
+.hero-text h4 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: -0.05rem;
 }
 
 .hero-square-deco {
 	position: absolute;
-	right: 6%;
+	right: 0%;
 	top: 100%;
 	transform: translateX(1%) translateY(-92%) rotate(6deg);
 	width: clamp(160px, 20vw, 280px);
@@ -102,7 +109,7 @@
 /* 히어로 정사각형 이미지 */
 .hero-square-img {
 	position: absolute;
-	right: 6%;
+	right: 0%;
 	top: 100%;
 	transform: translateY(-95%) rotate(3deg);
 	width: clamp(160px, 20vw, 280px);
@@ -131,13 +138,15 @@
 
 /* 섹션 제목 */
 .content-cotainer>h2 {
-	font-size: 1.1rem;
-	font-weight: 600;
+	font-size: 1.3rem;
+	font-weight: 700;
+	letter-spacing: -0.05rem;
 	color: var(--accent-color);
 	margin-top: 2.8rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	text-decoration: underline;
-	text-underline-offset: 3px;
+	text-underline-offset: 8px;
+	text-decoration-thickness: 0.01rem
 }
 
 .content-cotainer>h2:first-child {
@@ -145,8 +154,8 @@
 }
 
 .content-cotainer>p {
-	font-size: 1rem;
-	font-weight: 400;
+	font-size: 1.1rem;
+	font-weight: 300;
 	line-height: 1.85;
 	color: #2a2a2a;
 	word-break: keep-all;
@@ -158,24 +167,24 @@
 
 /* 해시태그 이미지 영역 */
 .image-block {
-	margin: 2.5rem 0;
+	margin: 3rem 0;
 	position: relative;
 }
 
 /* 인용문 */
 .content-cotainer blockquote {
-	margin: 1.8rem 0;
+	margin: 1rem 0;
 	padding: 0;
 	border: none;
 	background: none;
 }
 
 .content-cotainer blockquote p {
-	font-family: 'GangwonEducationSaeum', 'Paperozi', serif;
-	font-size: clamp(1.1rem, 2vw, 1.4rem);
+	font-family: 'KccEunyeong', 'Paperozi', serif;
+	font-size: 2rem;
 	font-weight: 400;
-	line-height: 1.75;
-	color: #111;
+	line-height: 1.2;
+	color: var(--accent-color);
 }
 
 /* 각주 */
