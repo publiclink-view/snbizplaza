@@ -625,22 +625,47 @@ h2.section-title b {
 @media (max-width: 480px) {
 
     /* 메인 비주얼 */
-    .main-visual-text {
+    .main-visual {
+        height: 100vh;
+    }
+
+    .main-visual-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-visual-bg figure {
         position: relative;
+        width: auto;
+        height: 100%;
+        opacity: 0.9;
+    }
+
+    .main-visual-text {
+        position: absolute;
         width: 100%;
         padding: 3rem 0;
-        transform: translate(-50%, 0);
-        background-color: #000;
+        transform: translate(-50%, -50%);
     }
 
     .main-visual-text h1 {
-        font-size: clamp(1.8rem, 7vw, 2.6rem);
+        font-size: clamp(2.8rem, 15vw, 3.5rem);
         line-height: 1.2;
+        width: 75%;
+        margin: 0 auto;
+        word-break: keep-all;
+        line-height: 1.1;
+        text-shadow: 0 0 15px black;
     }
 
     .main-visual-text h2 {
-        font-size: clamp(1rem, 3.5vw, 1.3rem);
-        margin-top: 0.75rem;
+        font-size: 8vw;
+        width: 75%;
+        word-break: keep-all;
+        line-height: 1.2;
+        margin: 0.75rem auto;
+        text-shadow: 0 0 10px black;
     }
 
     .main-visual-text span.visual-top {
